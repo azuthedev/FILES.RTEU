@@ -13,35 +13,53 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Content-Type = "image/webp"
+    Access-Control-Allow-Origin = "https://app.royaltransfer.eu, https://royaltransfer.eu, https://royaltransfereu.com, https://app.royaltransfereu.com"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Vary = "Origin"
 
 [[headers]]
   for = "/assets/*.png"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Content-Type = "image/png"
+    Access-Control-Allow-Origin = "https://app.royaltransfer.eu, https://royaltransfer.eu, https://royaltransfereu.com, https://app.royaltransfereu.com"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Vary = "Origin"
 
 [[headers]]
   for = "/assets/*.jpg"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Content-Type = "image/jpeg"
+    Access-Control-Allow-Origin = "https://app.royaltransfer.eu, https://royaltransfer.eu, https://royaltransfereu.com, https://app.royaltransfereu.com"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Vary = "Origin"
 
 [[headers]]
   for = "/assets/*.jpeg"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Content-Type = "image/jpeg"
+    Access-Control-Allow-Origin = "https://app.royaltransfer.eu, https://royaltransfer.eu, https://royaltransfereu.com, https://app.royaltransfereu.com"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Vary = "Origin"
 
 [[headers]]
   for = "/assets/*.svg"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Content-Type = "image/svg+xml"
+    Access-Control-Allow-Origin = "https://app.royaltransfer.eu, https://royaltransfer.eu, https://royaltransfereu.com, https://app.royaltransfereu.com"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Vary = "Origin"
 
 [[headers]]
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+    Access-Control-Allow-Origin = "https://app.royaltransfer.eu, https://royaltransfer.eu, https://royaltransfereu.com, https://app.royaltransfereu.com"
+    Access-Control-Allow-Methods = "GET, HEAD, OPTIONS"
+    Vary = "Origin"
 
 [[headers]]
   for = "/*.(css|js)"
